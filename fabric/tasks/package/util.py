@@ -25,7 +25,7 @@
 from fabric.api import env, task, roles, cd, run, put, puts, abort
 from fabric.colors import yellow, green
 
-from monitoring.fabric import helpers
+from fabric import helpers
 
 
 @task

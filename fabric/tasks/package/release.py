@@ -21,13 +21,13 @@
 
 """Tasks to release a new version."""
 
-from monitoring.fabric import helpers
+from fabric import helpers
 
 from fabric.api import *
 from fabric.colors import *
 from fabric.contrib.console import confirm
 
-from monitoring.fabric import git
+from fabric import git
 
 from semantic_version import Version
 
